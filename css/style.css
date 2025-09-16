@@ -1,0 +1,241 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.container p {
+  line-height: 1.6;
+}
+
+#navbar {
+  background: #f4f4f4;
+  padding: 10px 0;
+  text-align: center;
+}
+#navbar ul {
+  list-style: none;
+  padding: 0;
+}
+#navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.container a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+  border-bottom: 1px solid #d91010;
+}
+.container a.active {
+  font-weight: bold;
+  text-decoration: underline;
+  border: 1px solid #333;
+}
+.container a.visited {
+  background: #333;
+  color: #fff;
+}
+#showcase {
+  background: #f4f4f4;
+  padding: 30px 0;
+  text-align: center;
+}
+#showcase .container {
+  width: 70%;
+}
+#showcase .container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+#showcase h1 {
+  margin-top:0px;
+  font-size: 24px;
+}
+#showcase p {
+  line-height: 1.6;
+}
+#about-showcase {
+  background: #f4f4f4;
+  padding: 30px 0;
+  text-align: center;
+}
+#about-showcase .container {
+  width: 70%;
+  background-color: antiquewhite;
+}
+#about-showcase .container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+#about-showcase h1 {
+  margin-top:0px;
+  font-size: 24px;
+
+}
+#about-showcase p {
+  line-height: 1.6;
+}
+
+#footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+ #about-showcase {
+      padding: 20px 0;
+      text-align: center;
+    }
+    #about-showcase .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    #about-showcase h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    #about-showcase p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    
+    #about-showcase img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+      #services-showcase {
+      padding: 20px 0;
+      text-align: center;
+    }
+    #services-showcase .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    #services-showcase h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    #services-showcase p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    #services-showcase ul {
+      list-style-type: none;
+      padding: 0;
+      justify-content: justify;
+      text-align: left;
+    }
+
+    #services-showcase li {
+      margin-bottom: 10px;
+    }
+    #services-showcase li u {
+      font-weight: bold;
+    }
+    #services-showcase li u {
+      color: #007bff;
+    }
+    #services-showcase li:hover u {
+      color: #0056b3;
+    }
+    #services-showcase li:hover {
+      background-color: #f4f4f4;
+      cursor: pointer;
+    }
+    #services-showcase li .container {
+      background-color: #e0e0e0;
+    }
+
+    #services-showcase img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+     #contact-showcase {
+      padding: 20px 0;
+      text-align: center;
+    }
+    #contact-showcase .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    #contact-showcase h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    #contact-showcase p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    #contact-showcase ul {
+      list-style-type: none;
+      padding: 0;
+      justify-content: justify;
+      text-align: left;
+    }
+
+    #contact-showcase li {
+      margin-bottom: 10px;
+    }
+    #contact-showcase li u {
+      font-weight: bold;
+    }
+    #contact-showcase li u {
+      color: #007bff;
+    }
+    #contact-showcase li:hover u {
+      color: #0056b3;
+    }
+    #contact-showcase li:hover {
+      background-color: #f4f4f4;
+      cursor: pointer;
+    }
+    #contact-showcase li .container {
+      background-color: #e0e0e0;
+    }
+
+    #contact-showcase img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
